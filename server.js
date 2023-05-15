@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "https://frontend-app-gray.vercel.app/",
+  origin: "hhttps://schoolfront.vercel.app/",
 };
 
 // Enable CORS
