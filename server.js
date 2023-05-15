@@ -8,7 +8,7 @@ var corsOptions = {
 };
 
 // Enable CORS
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Parse requests with JSON payload
 app.use(express.json());
