@@ -4,11 +4,11 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "hhttps://schoolfront.vercel.app/",
+  origin: "https://schoolapp-y6um.onrender.com/",
 };
 
 // Enable CORS
-app.use(cors());
+app.use(cors(corsOptions));
 
 // Parse requests with JSON payload
 app.use(express.json());
